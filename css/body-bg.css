@@ -1,0 +1,11 @@
+
+body{
+    background-color: hsl(0, 100%, 74%); /* Red */
+    background-image: url(../assets/images/bg-intro-desktop.png);
+}
+
+@media(max-width : 375px){
+    body{
+        background-image: url(../assets/images/bg-intro-mobile.png);
+    }
+}
