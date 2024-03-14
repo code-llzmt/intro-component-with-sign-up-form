@@ -54,6 +54,12 @@ h1{
     line-height: 1;
 }
 
+@media (width <= 425px){
+    h1{
+        font-size: 26px; /* 1.6rem */
+    }
+}
+
 p{
     font-family: 'Poppins';
     font-size: 16px; /* 1rem */
@@ -92,6 +98,7 @@ h6{
     font-weight: 600; /* semi-bold */
     color: hsl(0, 100%, 74%); /* Red */
     line-height: 1;
+    cursor: pointer;
 }
 
 button{
@@ -114,7 +121,7 @@ button{
     justify-content: center;
 
     height: 56px; /* 3.5rem */
-    width: clamp(300px, 100%, 460px);
+    width: clamp(200px, 100%, 460px);
 
     /* 0px-left 4px-bottom 4px-blur hsl-color*/
     box-shadow: 0px 4px 4px hsl(153, 49%, 47%); /* Dark Green */
@@ -135,7 +142,7 @@ input{
     background-color: hsl(0, 0%, 100%); /* White */
 
     height: 56px; /* 3.5rem */
-    width: clamp(300px, 100%, 460px);
+    width: clamp(200px, 100%, 460px);
 
     padding-left: 2rem;
 
@@ -150,7 +157,7 @@ input::placeholder{
     font-family: 'Poppins';
     font-size: 16px; /* 1rem */
     font-weight: 600; /* semi-bold */
-    color: hsl(246, 25%, 77%); /* Grayish Blue */
+    color: hsl(248, 32%, 49%); /* Blue */
     letter-spacing: 1px;
 }
 

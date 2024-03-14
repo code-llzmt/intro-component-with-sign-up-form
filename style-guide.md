@@ -12,9 +12,11 @@ The designs were created to the following widths:
 ## Colors
 
 ### Primary
-- Red: hsl(0, 100%, 74%);
-- Green: hsl(154, 59%, 51%);
-- Dark Green: hsl(153, 49%, 47%);
+- Red: hsl(0, 100%, 74%); (body bg)
+- Darker Red: hsl(359, 63%, 63%); (purple banner box-shadow)
+- Green: hsl(154, 59%, 51%); (button)
+- Dark Green: hsl(153, 49%, 47%); (button box-shadow)
+- Purple: hsl(247, 32%, 48%); (banner)
 
 ### Accent
 - Blue: hsl(248, 32%, 49%);
