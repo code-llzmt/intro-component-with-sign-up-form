@@ -10,5 +10,5 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
 
 ### Links
 
-- Solution URL: [ https://github.com/code-llzmt/Intro-component-with-sign-up-form.git ]
-- Live Site URL: [ https://code-llzmt.github.io/Intro-component-with-sign-up-form ]
+- Solution URL: [ https://github.com/code-llzmt/intro-component-with-sign-up-form.git ]
+- Live Site URL: [ https://code-llzmt.github.io/intro-component-with-sign-up-form ]
