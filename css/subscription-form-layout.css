@@ -53,6 +53,7 @@
     gap: 1rem;
     border-radius: 4px; /* 0.25rem */
     background-color: hsl(0, 0%, 100%);
+    box-shadow: 0px 8px 1px hsl(359, 63%, 63%); /* Darker Red */
 }
 
 @media (width > 768px){

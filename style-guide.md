@@ -19,12 +19,12 @@ The designs were created to the following widths:
 - Purple: hsl(247, 32%, 48%); (banner)
 
 ### Accent
-- Blue: hsl(248, 32%, 49%);
+- Blue: hsl(248, 32%, 49%); (input border)
 
 ### Neutral
-- Dark Blue: hsl(249, 10%, 26%);
-- Grayish Blue: hsl(246, 25%, 77%);
-- White: hsl(0, 0%, 100%);
+- Dark Blue: hsl(249, 10%, 26%); (various fonts)
+- Grayish Blue: hsl(246, 25%, 77%); (placeholder fonts)
+- White: hsl(0, 0%, 100%); (form bg & fonts)
 
 
 ## Typography

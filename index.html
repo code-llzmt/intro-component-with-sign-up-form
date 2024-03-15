@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="css/subscription-form-layout.css">
 
   <!-- js -->
+  <script src="js/form.js" async defer ></script>
 
   <!-- title -->
   <title>Frontend Mentor | Intro component with sign up form</title>
@@ -39,12 +40,31 @@
         </div>
   
         <div class="form">
-          <input type="text" placeholder="First Name"> 
-          <input type="text" placeholder="Last Name"> 
-          <input type="email" placeholder="Email Address"> 
-          <input type="password" placeholder="Password"> 
+          <div>
+            <input type="text" placeholder="First Name" class="first-name"> 
+            <span class="error-message">First Name cannot be empty.</span>
+            <img src="./assets/images/icon-error.svg" alt="icon-error" class="icon-error">
+          </div>
+
+          <div>
+            <input type="text" placeholder="Last Name" class="last-name"> 
+            <span class="error-message">Last Name cannot be empty.</span>
+            <img src="./assets/images/icon-error.svg" alt="icon-error" class="icon-error">
+          </div>
+
+          <div>
+            <input type="email" placeholder="Email Address" class="email">
+            <span class="error-message">Look like this is not an email.</span> 
+            <img src="./assets/images/icon-error.svg" alt="icon-error" class="icon-error">
+          </div>
+
+          <div>
+            <input type="password" placeholder="Password" class="password"> 
+            <span class="error-message">Password cannot be empty.</span>
+            <img src="./assets/images/icon-error.svg" alt="icon-error" class="icon-error">
+          </div>
         
-          <button>Claim your free trial </button>
+          <button>Claim your free trial</button>
         
           <h6>By clicking the button, you are agreeing to our <span class="red-semi-bold">Terms and Services.</span></h6>    
         </div>
